@@ -1,6 +1,6 @@
 # Real-Time Voice Translation Middleware
 
-A real-time simultaneous interpretation pipeline that translates English speech to Telugu using:
+A real-time simultaneous interpretation pipeline that translates English speech to an inputted end users language using:
 - **Deepgram** for speech-to-text (ASR)
 - **OpenAI GPT-4o** for translation
 - **ElevenLabs** for text-to-speech (TTS)
@@ -45,7 +45,7 @@ The pipeline consists of three async workers:
 ## Configuration
 
 - **Input Language**: English (US)
-- **Output Language**: Telugu
+- **Output Language**: Currently Telugu
 - **Voice**: Alisha (Indian female voice, optimized for Telugu)
 - **Audio Format**: PCM 16kHz, 16-bit, mono
 
