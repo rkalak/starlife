@@ -19,7 +19,7 @@ A real-time simultaneous interpretation pipeline that translates English speech 
 ## Project Structure
 
 ```
-starlife/
+real time translation/
 ├── real-time-voice-middleware/
 │   ├── app.py               # Streamlit web app (for deployment)
 │   ├── asr_worker.py        # Automatic speech recognition
